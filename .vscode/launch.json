@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Client with Server",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/build-ai-agents-using-mcp/m2l2/enhanced-mcp-server/client.py",
+            "args": ["server.py"],
+            "python": "${workspaceFolder}/build-ai-agents-using-mcp/m2l2/.venv/bin/python",
+            "cwd": "${workspaceFolder}/build-ai-agents-using-mcp/m2l2/enhanced-mcp-server",
+            "console": "integratedTerminal"
+        }
+    ]
+}
